@@ -53,14 +53,9 @@ const Page = () => {
   }
 if (loading) {
   return (
-    <div className="min-h-screen bg-white">
-      
-        <div className=' pt-10 lg:mx-[200px] items-center justify-center'>
-          <h1 className='text-black font-bold text-center animate-bounce text-3xl'>
-            Loading....
-          </h1>
-        </div>
-        </div>
+    <div className="flex items-center justify-center h-screen ">
+    <div className="w-12 h-12 border-4 border-gray-300 border-b-blue-500 rounded-full animate-spin"></div>
+  </div>
      ) 
      }
   return (
